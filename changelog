@@ -1,0 +1,6 @@
+Version 0.2 - 2010-09-10:
+-------------------------
+ Heavily modified from version 0.1 by Suttoni (Thanks for submitting the changes):
+  - Uses awk instead of shell for load average comparisons (handles floating point values).
+  - Handles snmpwalk timeouts (reports them as such).
+  - Uses human-readable SNMP OIDs (obtained by using snmptranslate).

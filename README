@@ -2,11 +2,10 @@
  README
  Nagios-Check-SNMP-Load
  
- Created by Leon Waldman on 2010-10-05.
- le.waldman@gmail.com
+ Created by Leon Waldman.
+ le.waldman at gmail.com
 
 
 Nagios plugin shell script that uses snmpwalk to retrieve the load, parse the parameters that are passed against wrong insertions, check the output of snmpwalk, compares it with the load passed and emit the info in Nagios complainant format.
 
-
-
+Any Improvement (And please, if you can, improve it) please send me a copy! ;)
